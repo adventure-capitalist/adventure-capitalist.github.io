@@ -1,0 +1,175 @@
+/*This sheet was created by Ashley for use in connection with her digital portfolio*/
+
+
+/*Navbar*/
+
+#navigation {
+  height: 3.5vw;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: pink;
+  overflow: hidden;
+  border-style: ridge;
+  border-width: 0.25vw;
+  border-color: white;
+}
+
+nav {
+  width: 45%;
+  align-items: flex-start;
+}
+.navbar {
+  display: flex;
+  margin: 0.50em;
+  padding: 0;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-item {
+  font-family: 'Thasadith', sans-serif;
+  font-size: 1.0vw;
+  font-weight: bolder;
+  color: black;
+  text-decoration: none;
+  display: inline;
+  margin: 0.5%;
+  padding: 0.5%;
+  width: 12em;
+}
+
+.nav-link {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  color: black;
+  width: 100%;
+  font-size: 1vw;
+}
+
+li a:active {
+  background-color: #546070;
+  color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    display: block;
+  }
+  nav {
+    width: 100%;
+  }
+  .nav-item {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-link {
+    font-size: 3.0vw;
+    padding: 0;
+    margin: 0;
+  }
+  #navigation {
+    height: 24vw;
+  }
+}
+
+
+/*Banner*/
+img {
+  margin: 0;
+}
+
+#signature {
+  border-style: solid;
+  border-width: 0.5vw;
+  border-color: #546070;
+  width: 99%;
+}
+
+#Ashley {
+  border-color: pink;
+  border-width: 0.50vw;
+  border-style: double;
+  border-radius: 50%;
+  width: 100%;
+  margin: 1vw;
+}
+
+#banner {
+  font-family: 'Berkshire Swash', cursive;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+#banner-center {
+  width: 30%;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+h1 {
+  font-family: 'Berkshire Swash', cursive;
+  padding: 2vw;
+  margin: 2vw;
+  font-size: 3vw;
+  color: pink;
+}
+h3 {
+  font-family: 'Berkshire Swash', cursive;
+  text-align: center;
+  background: #546070;
+  color: white;
+  font-size: 2.5vw;
+  margin: 0;
+  padding: 1vw;
+}
+
+p {
+  font-family: 'Thasadith', sans-serif;
+  background: pink;
+  padding: 3vw;
+  margin: 0;
+  color: black;
+  font-size: 2vw;
+}
+@media screen and (max-width: 700px) {
+  p {
+    font-size: 3.5vw;
+}
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #336699;
+}
+
+#contact {
+  text-align: center;
+}
+
+#LinkedIn {
+  text-decoration: none;
+}
+
+footer {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 2.0vw;
+  padding: 2vw;
+  text-align: right;
+  color: white;
+}
