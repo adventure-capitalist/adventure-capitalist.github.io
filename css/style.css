@@ -14,6 +14,7 @@
   border-style: ridge;
   border-width: 0.25vw;
   border-color: white;
+  margin: 0;
 }
 
 nav {
@@ -89,9 +90,9 @@ img {
 
 #signature {
   border-style: solid;
-  border-width: 0.5vw;
-  border-color: #546070;
-  width: 99%;
+  border-width: 3vw 0 0 0;
+  border-color: pink;
+  width: 100%;
 }
 
 #Ashley {
@@ -111,6 +112,8 @@ img {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
+  background-color: #546070;
+  margin: 0;
 }
 #banner-center {
   width: 30%;
@@ -155,11 +158,13 @@ div {
 }
 
 body {
-  background-color: #336699;
+  background-color: #546070;
+  padding: 0;
 }
 
 #contact {
   text-align: center;
+  background-color: white;
 }
 
 #LinkedIn {
@@ -168,8 +173,12 @@ body {
 
 footer {
   font-family: 'Berkshire Swash', cursive;
+  background-color: #546070;;
   font-size: 2.0vw;
   padding: 2vw;
   text-align: right;
   color: white;
+  border-style: solid;
+  border-width: 3vw 0 0 0;
+  border-color: pink;
 }
