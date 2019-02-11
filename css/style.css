@@ -104,7 +104,7 @@ img {
   margin: 1vw;
 }
 
-#banner {
+.banner {
   font-family: 'Berkshire Swash', cursive;
   width: 100%;
   display: flex;
@@ -127,6 +127,16 @@ h1 {
   margin: 2vw;
   font-size: 3vw;
   color: pink;
+}
+
+h2 {
+  font-family: 'Berkshire Swash', cursive;
+  text-align: center;
+  background: pink;
+  color: #546070;
+  font-size: 2.5vw;
+  margin: 0;
+  padding: 1vw;
 }
 h3 {
   font-family: 'Berkshire Swash', cursive;
@@ -169,6 +179,19 @@ body {
 
 #LinkedIn {
   text-decoration: none;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.vert-img {
+  width:  100%;
+  justify-content: center;
 }
 
 footer {
